@@ -18,6 +18,6 @@ COPY . /app
 EXPOSE 8000
 
 # Start Django app with Gunicorn
-CMD ["gunicorn", "--bind", "0.0.0.0:8000", "backend.wsgi:application"]
+#CMD ["gunicorn", "--bind", "0.0.0.0:8000", "backend.wsgi:application"]
 #RUN python manage.py migrate
 #RUN python manage.py makemigrations
